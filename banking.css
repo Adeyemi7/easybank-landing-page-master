@@ -1,0 +1,237 @@
+
+.navigation{
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: hsl(0, 0%, 100%) ;
+    height: 10vh;
+    position: fixed;
+    z-index: 999;
+}
+.into-container{
+    position: absolute;
+    z-index: 0;
+}
+.mobile-pics{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: em;
+}
+.nav-toggle-list{
+    z-index: 9000;
+    position: fixed;
+    @media (min-width:375px) {
+        margin-top: 3.5em;
+        width:100%;
+    }
+}
+.logo,
+.nav-bar{
+    float: right;
+    margin: 2em;
+}
+
+.list-items,
+a{
+    display: none;
+    background-color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    text-transform: capitalize;
+    color: hsl(233, 26%, 24%);
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 1em;
+    border-radius: 5px;
+}
+div.below_mobile-pics{
+    width: 90%;
+    margin: 0 auto;
+}
+p.heading-one{
+    margin: 0 auto;
+    max-width: 250px;
+    font-weight: 900;
+    font-size: 2em;
+    color: hsl(233, 26%, 24%);
+    margin-bottom: .5em;   
+}
+p.heading-two{
+    max-width: 300px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1em;
+    padding-bottom: 3em;
+    color: gray;
+}
+.button-container{
+   width: 50%;
+   margin: 0 auto;
+   margin-bottom: 8em;
+}
+.button{
+    font-size: 1.1em;
+    width: 100%;
+    padding: .5em;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+    border-radius: 100px;
+    border: 1px solid hsl(136, 65%, 51%);
+    opacity: 0.8;
+}
+main{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+}
+.same{
+    width: 80%;
+    margin: 0 auto;
+}
+main svg{
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+.message-one,
+.article_header{
+    margin-top: 2em;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: .5em;
+    color: hsl(233, 26%, 24%);
+}
+.message-two{
+    font-weight: 400;
+    font-size: .8em;
+    text-align: center;
+    line-height: 1.8;
+    padding-bottom: 2em;
+}
+.sub_heading{
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: center;
+    color: hsl(233, 26%, 24%);
+}
+.sub_paragraph{
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    padding-bottom: 2em;
+    color: gray;
+}
+section{
+    background-color: hsl(0, 0%, 98%);
+}
+.article-blog-child{
+    border: 5px solid hsl(0, 0%, 100%);    
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+.artcle-container-each{
+    margin-bottom: 2em;
+}
+.article_header{
+    padding-bottom: 1.5em;
+}
+.article-images{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.article-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.article-header{
+    font-weight: 300;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    color: gray;
+}
+.article-subheading{
+    font-family: 900;
+    font-size: 1.3em;
+    padding-bottom: .5em;
+    color: hsl(233, 26%, 24%);
+}
+.article-lastchild{
+    font-weight: 500;
+    font-size: .97em;
+    padding-bottom: 2em;
+    color: gray;
+}
+.footer-container{
+    background-color: hsl(233, 26%, 24%);
+    width: 100%;
+    padding-top: 3em;
+    margin-bottom: 4em;
+}
+.footer-logo>svg{
+    margin: 0 auto;
+    background-color:hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+}
+.socials-logo{
+   margin: 0 auto;
+   width: 60%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-bottom: 2em;
+}
+.option-list p{
+   text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+.second{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+.btn{
+    margin-top: 1em;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+    border-radius: 100px;
+    border: 1px solid hsl(136, 65%, 51%);
+    opacity: 0.9;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    padding: .5em;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+.easy{
+    text-align: center;
+    color: gray;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+@media (max-width:450px) {
+    .navigation{
+        width: 100%;
+    }
+    .mobile-pics{
+        top: -3.5em;
+    }
+}
+@media (min-width:451px){
+    .navigation{
+        width: 100%;
+    }
+}
